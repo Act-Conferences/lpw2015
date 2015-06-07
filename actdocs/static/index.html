@@ -1,0 +1,127 @@
+[% WRAPPER ui title = global.conference.name %]
+
+<span style="float: right; display: block; margin: 35px 5px 15px 30px;">
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#lpw2015',
+  interval: 30000,
+  title: '(Tag: #LPW2015)',
+  subject: 'Latest Tweets',
+  width: 230,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#d96f2d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
+</span>
+
+<h1>Perl and the Internet of Things</h1>
+
+
+<p>
+<a href="http://book.roomofthings.com/buy/"><img class="topcontentbanner" src="[% make_uri_info('images/design/internet-things.jpg') %]"/></a>
+</p>
+
+
+<h2>What is it?</h2>
+
+
+<p>
+The London Perl Workshop is a free one-day conference in
+central London, UK. LPW is the UK's Premier Perl Event and so is also known as the United Kingdom Perl Workshop (UKPW). In 2014 it will be held on Saturday 8th November at Westminster University's New Cavendish Campus (see map at foot of page)</a>.
+</p>
+
+
+
+<h2>How Can I Attend, or Present a Talk?</h2> 
+<p>
+If you would like to come then please <a href="[% make_uri('login') %]"
+>log in</a> and <a href="[% make_uri('register') %]"
+>register</a>, if you have
+attended an Act event recently you will probably already have
+a login otherwise you will need to create a new user first.
+You can do this by using the links in the navigation menu to the left of this text.
+</p>
+
+<p>
+If you would like to speak then please <a href="[% make_uri('newtalk') %]"
+>submit your talk here</a> as soon as possible - the earlier you submit,
+the more likely your talk is to be accepted.
+</p>
+
+<h2>Is There a Theme?</h2>
+<p>The theme for the London Perl Workshop will be <strong>Perl and the Internet of Things</strong>. It will focus on using Perl to control a wide variety of connected devices. We will consider a 'thing' to be a hardware item, a physical device, a virtual device or a service (especially if it is a service that remotely affects hardware). </p>
+
+<p> We have already confirmed that Hakim Cassimaly, co-author of <a href="http://book.roomofthings.com/buy/">Designing the Internet of Things</a> will be attending the event and giving a special workshop on hardware connected devices powered using Perl. We hope also to have Adrian McEwan (the book's other author) attend.</p>
+
+
+<p>We welcome the submission of talks, discussions, presentations and workshops using other languages, or that have seperate technical or engineering objectives. The strength in developing is knowledge from a wide variety of sources. If you use another programming language or system to connect physical and virtual devices together and want to submit or attend the event then we would be honoured to welcome you. If you are connected to a UK Hackspace and wish to attend and display then please approach the organisers with ideas of your requirements.</p>
+
+<p>Speakers are invited to talk on any subject that relates to this theme, though we will also accept talks on other subjects. We will accept talks from people of any age, background or circumstance, the London Perl Workshop is an inclusive event and we would love to have you attend.</p>
+
+<p>This year we hope to have access to three Workshop rooms and would like to run as many workshops as possible to introduce new users to the world of connected devices, the literal 'Internet of Things'. We would also love to refresh the skills of those wishing to engage with the latest developments in the Perl and other languages. If you wish to submit a workshop please use the same submission form as the talks, please note that workshops will be 60, 120 or 240 minutes in length.</p>
+
+
+
+<p>
+	<strong>Proposal Deadline:</strong> Friday 24th October 2014<br />
+	<strong>Speaker Notification:</strong> Monday 27th October 2014<br />                          
+
+</p>
+
+<p>
+Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
+</p>
+
+[% news = global.news(3);
+   IF news.size > 2;
+     more = news.pop;
+   END;
+ %]
+
+[% IF news.size %]
+<h2>Latest News</h2>
+[% FOREACH item = news %]
+<div class="news-entry">
+ <h3 class="news-header">
+  <span class="news-date">[% date_format(item.datetime, 'date_short') %]</span>
+  <span class="news-title">[% item.title %]</span>
+ </h3>
+ <div class="news-text">
+  [% item.content %]
+ </div>
+</div>
+[% END %]
+[% END %]
+
+[% IF more %]
+<p>
+ <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
+</p>
+[% END %]
+
+<div id="mapframe">
+<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps/ms?msa=0&amp;msid=203102976551340422970.0004cf15137955423caa9&amp;ie=UTF8&amp;t=m&amp;ll=51.522042,-0.135269&amp;spn=0.012817,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.co.uk/maps/ms?msa=0&amp;msid=203102976551340422970.0004cf15137955423caa9&amp;ie=UTF8&amp;t=m&amp;ll=51.522042,-0.135269&amp;spn=0.012817,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">London Perl Workshop</a> in a larger map</small>
+</div>
+
+[% END %]
+
+

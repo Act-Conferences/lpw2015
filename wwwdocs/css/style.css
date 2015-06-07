@@ -1,0 +1,320 @@
+/* Micro Clearfix Hack by Nicholas Gallagher (http://nicolasgallagher.com/micro-clearfix-hack/) */
+/* For modern browsers */ 
+.cf:before, .cf:after { content:""; display:table;}
+.cf:after { clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.cf { zoom:1;}
+img{border:0;}
+
+.alignleft { float:left;}
+.alignright { float:right;}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #292929;
+  background: #3f3f3f;
+  margin: 0;
+}
+
+#wrapper {
+
+}
+
+#header {
+  background-color: #445566;
+  padding: 5px;
+}
+
+
+input[type="submit"] {
+  color: #00ABBC;
+  background-color: #fff; 
+  border: 1px solid #00ABBC;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;  
+ text-transform: uppercase;
+
+}
+
+/*HEADER*/
+
+#header h1 {
+  color: #ff6600;
+  font-size: 250%;
+}
+
+
+h1 {
+  font-size: 200%;
+  color: #445566;
+  font-weight: 300;
+  text-align: left;
+  line-height: 120%;
+}
+
+.date {
+  text-align: right;
+  display: block;
+  color: #fff;
+  font-size: 80%;
+}
+
+.tagline {
+  text-align: left;
+  color: #131313;
+  
+}
+
+
+ #menu h2, #menu li {
+  color: #eaedf1;
+  background: none;
+  text-decoration: none; 
+  padding: 10px;
+  font-size: 90%; 
+  line-height: 100%;  
+  padding: 6px 4px;
+  margin: 0;  
+  list-style-type: none;
+}
+
+
+ #menu a {
+  color: #eaedf1;
+  text-decoration: none; 
+}
+
+ #menu h2 {
+  color: #465f72;
+  font-weight: 700;
+  padding: 12px 4px 0px 4px;
+}
+
+ #menu h2:hover a , #menu h2 a:hover, #menu li a:hover  {
+  color: #00abbc;
+}
+
+/*MIDDLE CONTENT*/
+#menu {
+  background: #3f3f3f url(http://www.shadow.cat/static/images/01-egg-dk-grey.png);
+  border: none; 
+  height: 100%;  
+  float: left;
+  width: 15%
+}
+
+ #content {
+  background-color: #fff;
+  float: right;
+  width: 83%
+}
+
+#content p {
+  margin: 20px;
+  max-width: 700px;
+}
+
+#footer {
+  padding: 5px;
+  align: right;
+}
+
+#footer a {
+  color: #fff;
+}
+
+ #text-content {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff;
+}
+
+ #text-content h2 {
+  color: #556677;
+  font-size: 150%;
+  line-height: 200%;
+  font-weight: 800;
+} 
+
+ #text-content a {
+  color: #0066ff;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+
+ /*FIXED BAR ON TOP OF MIDDLE CONTENT*/
+ .fixed-bar {
+ height: 79px;
+ line-height: 79px;
+ border-bottom: 1px solid #d4d4d4;  
+ text-transform: uppercase;
+ font-weight: 700;
+ position: fixed;
+}
+
+ .fixed-bar img {
+  display: block;
+  max-height: 100%;
+}
+
+ .user-box span {
+  color: #cccccc;
+  margin: 0 10px;
+}
+
+ #text-content .fixed-bar {
+  background: #fff;
+  width: 740px;
+}
+
+/* SPONSORS  */
+ #sponsors {
+  padding: 10px;
+  background: #993300 url(http://www.shadow.cat/static/images/01-egg-orange.png);
+  clear: both;
+}
+
+ #sponsors h2, #sponsors a{
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: 700;
+  font-size: 200%;  
+  line-height: 50%;
+  text-align: right;
+}
+
+
+ #sponsors h3, #sponsors p{
+  text-decoration: none;
+  color: #223344;
+  font-weight: 300;
+  font-size: 120%;  
+  line-height: 100%;
+}
+
+
+img.topcontentbanner {
+  margin: 5px auto;
+  width: 90%;
+}
+
+
+img.sponsorsimage {
+  margin: 0px auto;
+  height: 40px;
+}
+
+textarea {
+ resize: vertical;
+}
+
+td, table, frameset, input {
+ font-size: 100%;
+}
+
+table {
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+border: 2px inset #afafaf;
+padding: 4px;
+margin: 5px 0px 10px 50px;
+background: #efefef;
+}
+
+td {
+  border-bottom: 0pt solid black;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: justify;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+
+#sponsors h2 {
+  padding: 7px 3px 7px 3px;
+  margin: 0px;
+  font-size: 130%;
+  height: 18px;
+  background: none;
+}
+
+#content-image-bar {
+  clear: both;
+  margin: 0 0 0 -200px;
+}
+
+/*~------------------------------------------------------------------*/
+/* Timetable colours                                                 */
+/*~------------------------------------------------------------------*/
+.header {
+color: #666;
+background-color: #cfcfcf;
+vertical-align: top;
+
+}
+.venue {
+color: inherit;
+background-color: #9f9f9f;
+vertical-align: top;
+}
+.out {
+color: inherit;
+background-color: #EEEEEE;
+vertical-align: top;
+}
+.r1 {
+color: inherit;
+background-color: #9cd0ff;
+vertical-align: top;
+}
+.r2 {
+color: inherit;
+background-color: #38a1ff;
+vertical-align: top;
+}
+.r3 {
+color: inherit;
+background-color: #5aaffc;
+vertical-align: top;
+}
+.r4 {
+color: inherit;
+background-color: #a3cbee;
+vertical-align: top;
+}
+.r5 {
+color: inherit;
+background-color: #Daeeff;
+vertical-align: top;
+}
+
+.r6 {
+color: inherit;
+background-color: #38a1ff;
+vertical-align: top;
+}
+
+
+
+.mtbutton {
+cursor:pointer;
+vertical-align: middle;
+}
+.starcount {
+font-size: small;
+}
+
+
+
+
+

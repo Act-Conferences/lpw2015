@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
+
+<head>
+<!-- Document Metadata -->
+<meta http-equiv="Content-Language" content="[% global.request.language %]" />
+<!-- OpenId -->
+[% IF openid %]
+<link rel="openid.server" href="[% global.request.base_url %][% make_uri('openid') %]" />
+[% END %]
+<!-- Atom news feed -->
+<link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
+      href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
+[%- IF title -%]<title>[% title  %]</title>[%- END -%]
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+<link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]" />
+<link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+
+
+<!-- JavaScript sugar -->
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/act.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <div id="header">
+    [%- IF title -%]<h1>[% title  %]</h1>[%- END -%]
+    <span class="tagline">London Perl Workshop, the United Kingdom Perl Workshop</span><br /> 
+    <span class="date">Saturday 8th November 2014</span>
+  </div>
+
+<div id="inner-wrapper">
+
+
+
+  <div id="menu">
+    <h2><a href="[% make_uri('index.html') %]">Home</a><br /></h2> 
+    <li><a href="[% make_uri('sponsors.html') %]">Sponsors</a></li>
+    <li><a href="[% make_uri('slideshows.html') %]">Slideshows</a></li>
+  [% PROCESS menu %]
+  </div>
+
+  <div id="content">
+     <div id="text-content">
+       [% content %]
+
+        <div style="align: right">
+          <a href="https://twitter.com/intent/tweet?button_hashtag=lpw2015" class="twitter-hashtag-button" data-related="shadowcat_mdk">Tweet #lpw2015</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+     </div>
+  </div>
+
+
+    <div id="sponsors">
+
+      <h2><a href="[% make_uri('sponsors.html') %]">Sponsors</a></h2>
+
+      <h3>Corporate</h3>
+    
+        <span style="width: 95%;">
+
+<a href="http://www.2ndQuadrant.com/en/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/2ndquadrant.png') %]" alt="2nd Quadrant" title="Open Source PostgresSQL solutions"/></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.antibodymx.net/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/antibody.jpg') %]" alt="antibodyMX" title="Hosted anti-spam solutions"/></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://booking.com/jobs" target="_new"><img width="140px"  src="[% make_uri_info('images/logos/booking.png') %]" alt="Booking.com" title="Online Hotel Reservations"/></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.cv-library.co.uk/" target="_new"><img width="140px" src="[% make_uri_info('images/logos/cv.jpg') %]" alt="CV Library" title="Professional CV" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.eligo.co.uk/" target="_new"><img width="140px" src="[% make_uri_info('images/logos/eligo.jpg') %]" alt="Eligo" title="Professional Recruitment" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://www.exonetric.com" target="_new"><img width="140px"  src="[% make_uri_info('images/logos/exonetric.png') %]" alt="Exonetric" title="Reliable hosting solutions"/></a>
+
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://geekuni.com/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/geekuni.png') %]" alt="geek University" title="Professional Perl Training" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://mag-sol.com/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/magnum.png') %]" alt="magnum Solutions" title="Professional Perl consultancy and training" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://www.lokku.com/jobs" target="_new"><img width="140px" src="[% make_uri_info('images/logos/nestoria-small.png') %]" alt="Nestoria" title="Vertical Search for Properties" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.opusvl.com" target="_new"><img width="140px" src="[% make_uri_info('images/logos/opusvl.jpg') %]" alt="OpusVL" title="Business Processing Systems" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+
+<a href="http://oreilly.com/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/oreilly.jpg') %]" alt="O'reilly Books" title="O'Reilly Books" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.perl.careers" target="_new"><img width="140px" src="[% make_uri_info('images/logos/perl-careers.png') %]" alt="Perl Careers" title="Perl Recrtuitment" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.sciencephoto.com" target="_new"><img width="140px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="Rewarding Images of Nature" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://shadow.cat" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/shadowcat.png') %]" alt="Shadowcat
+      Systems Limited" title="Perl Consultancy with a Clue and a Commit
+      Bit" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://smoothwall.com" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/smoothwall.png') %]" alt="Smoothwall Limited" title="" /></a>
+
+
+
+        </span>
+
+ 
+      <h3>Community</h3>
+
+        <span>
+<a href="http://enlightenedperl.org/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/epo.png') %]" alt="Enlightened Perl Organisation" title="Non profit association for Perl promotion" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://flossuk.org/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/flossuk.png') %]" alt="FlossUK" title="Non profit association for Unix-based promotion" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://perl6.org/" target="_new"><img width="140px" src="[% make_uri_info('images/logos/perl6.png') %]" alt="Perl6 Community" title="Non profit association for Perl promotion" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
+<a href="http://www.westminster.ac.uk/" target="_new"><img class="sponsorsimage" src="[% make_uri_info('images/logos/westminster.gif') %]" alt="" title="university of Westminster" /></a>
+
+</span>
+
+      <hr />
+
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="London Perl Workshop 2015:" data-via="shadowcat_mdk" data-hashtags="lpw2015">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.londonperlworkshop.org.uk&amp;send=false&amp;layout=button_count&amp;width=140&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=verdana&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowTransparency="true"></iframe>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium"></g:plusone>
+      
+    </div>
+    <div id="content-image-bar">
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>
+      <a href="http://perlfoundation.org/" target="_new"><img
+      src="[% make_uri_info('images/logos/tpf.png') %]"
+      alt="Home of Perl Foundation, supporting community"
+      title="Perl Foundation  Homepage" height="30px" />
+      </a>
+      <a href="http://perl.org/" target="_new"><img
+      src="[% make_uri_info('images/logos/perl.png') %]" 
+      alt="Home of Perl"
+      title="Perl Homepage" height="30px" />
+      </a>
+    </p>
+    <p>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </p>
+  </div>
+
+</div>
+
+<!-- Favorite icon -->
+<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.a
+sync = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefor
+e(po, s);
+  })();
+</script>
+
+</body>
+</html>
