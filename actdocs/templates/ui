@@ -84,7 +84,7 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.jpg') %]" alt="Evozon" title="A great Perl company" /></a>
+<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.png') %]" alt="Evozon" title="A great Perl company" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
