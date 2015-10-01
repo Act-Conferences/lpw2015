@@ -111,7 +111,7 @@
 &nbsp;&nbsp;&nbsp;
 
 
-<a href="http://oreilly.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/oreilly.jpg') %]" alt="O'reilly Books" title="O'Reilly Books" /></a>
+<a href="http://oreilly.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/oreilly.jpg') %]" alt="O'reilly Books" title="O'Reilly Books" /></a> -->
 
 &nbsp;&nbsp;&nbsp;
 
@@ -121,7 +121,7 @@
 
 <a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="Rewarding Images of Nature" /></a>
 
-&nbsp;&nbsp;&nbsp; -->
+&nbsp;&nbsp;&nbsp;
 
 <a href="http://shadow.cat" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/shadowcat.png') %]" alt="Shadowcat
       Systems Limited" title="Perl Consultancy with a Clue and a Commit
