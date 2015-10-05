@@ -68,11 +68,11 @@
     
         <span style="width: 95%;">
 
-<!-- <a href="http://www.2ndQuadrant.com/en/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/2ndquadrant.png') %]" alt="2nd Quadrant" title="Open Source PostgresSQL solutions"/></a>
+<!-- <a href="http://www.2ndQuadrant.com/en/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/2ndquadrant.png') %]" alt="2nd Quadrant" title="Open Source PostgresSQL solutions"/></a> -->
 
 &nbsp;&nbsp;&nbsp;
 
-<!-- <a href="http://booking.com/jobs" target="_new"><img height="40px"  src="[% make_uri_info('images/logos/booking.png') %]" alt="Booking.com" title="Online Hotel Reservations"/></a>
+<!-- <a href="http://booking.com/jobs" target="_new"><img height="40px"  src="[% make_uri_info('images/logos/booking.png') %]" alt="Booking.com" title="Online Hotel Reservations"/></a> -->
 
 &nbsp;&nbsp;&nbsp;
 
@@ -84,11 +84,11 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.png') %]" alt="Evozon" title="A great Perl company" /></a>
+<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.jpg') %]" alt="Evozon" title="A great Perl company" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
-<!-- <a href="http://www.exonetric.com" target="_new"><img height="40px"  src="[% make_uri_info('images/logos/exonetric.png') %]" alt="Exonetric" title="Reliable hosting solutions"/></a>
+<a href="http://www.exonetric.com" target="_new"><img height="40px"  src="[% make_uri_info('images/logos/exonetric.png') %]" alt="Exonetric" title="Reliable hosting solutions"/></a>
 
 
 &nbsp;&nbsp;&nbsp; -->
@@ -101,19 +101,18 @@
 
 &nbsp;&nbsp;&nbsp;
 
-
 <!-- <a href="http://www.lokku.com/jobs" target="_new"><img height="40px" src="[% make_uri_info('images/logos/nestoria-small.png') %]" alt="Nestoria" title="Vertical Search for Properties" /></a>
 
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; -->
 
-<a href="http://www.opusvl.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/opusvl.jpg') %]" alt="OpusVL" title="Business Processing Systems" /></a>
+<!-- <a href="http://www.opusvl.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/opusvl.jpg') %]" alt="OpusVL" title="Business Processing Systems" /></a>
 
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; -->
 
 
-<a href="http://oreilly.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/oreilly.jpg') %]" alt="O'reilly Books" title="O'Reilly Books" /></a>
+<!-- <a href="http://oreilly.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/oreilly.jpg') %]" alt="O'reilly Books" title="O'Reilly Books" /></a>
 
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;-->
 
 <a href="http://www.perl.careers" target="_new"><img height="40px" src="[% make_uri_info('images/logos/perl-careers.png') %]" alt="Perl Careers" title="Perl Recrtuitment" /></a>
 
@@ -121,7 +120,7 @@
 
 <a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="Rewarding Images of Nature" /></a>
 
-&nbsp;&nbsp;&nbsp; -->
+&nbsp;&nbsp;&nbsp;
 
 <a href="http://shadow.cat" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/shadowcat.png') %]" alt="Shadowcat
       Systems Limited" title="Perl Consultancy with a Clue and a Commit
@@ -147,9 +146,9 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<!-- <a href="http://perl6.org/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/perl6.png') %]" alt="Perl6 Community" title="Non profit association for Perl promotion" /></a>
+<a href="http://perl6.org/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/perl6.png') %]" alt="Perl6 Community" title="Non profit association for Perl promotion" /></a>
 
-&nbsp;&nbsp;&nbsp; -->
+&nbsp;&nbsp;&nbsp;
 
 <a href="http://www.westminster.ac.uk/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/westminster.gif') %]" alt="" title="university of Westminster" /></a>
 
