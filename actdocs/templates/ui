@@ -67,6 +67,8 @@
       <h3>Corporate</h3>
     
         <span style="width: 95%;">
+        
+<a href="http://www.adzuna.co.uk" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/adzuna.png') %]" alt="Adzuna" title="Search Engine for Job Adverts"/>
 
 <!-- <a href="http://www.2ndQuadrant.com/en/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/2ndquadrant.png') %]" alt="2nd Quadrant" title="Open Source PostgresSQL solutions"/></a> -->
 
