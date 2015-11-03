@@ -120,7 +120,7 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="Rewarding Images of Nature" /></a>
+<a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="The leading provider of science images and footage" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
