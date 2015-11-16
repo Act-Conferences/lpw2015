@@ -61,12 +61,13 @@ h1 {
   text-align: right;
   display: block;
   color: #fff;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .tagline {
   text-align: left;
-  color: #131313;
+/*  color: #131313; */
+  color: #ff6600;
   
 }
 
