@@ -67,6 +67,8 @@
       <h3>Corporate</h3>
     
         <span style="width: 95%;">
+        
+<a href="http://www.adzuna.co.uk" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/adzuna.png') %]" alt="Adzuna" title="Search Engine for Job Adverts"/>
 
 <!-- <a href="http://www.2ndQuadrant.com/en/" target="_new"><img class="sponsorsimage"  src="[% make_uri_info('images/logos/2ndquadrant.png') %]" alt="2nd Quadrant" title="Open Source PostgresSQL solutions"/></a> -->
 
@@ -78,20 +80,20 @@
 
 <a href="http://www.cv-library.co.uk/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/cv.jpg') %]" alt="CV Library" title="Professional CV" /></a>
 
-&nbsp;&nbsp;&nbsp; -->
+&nbsp;&nbsp;&nbsp;
 
 <a href="http://www.eligo.co.uk/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/eligo.jpg') %]" alt="Eligo" title="Professional Recruitment" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.jpg') %]" alt="Evozon" title="A great Perl company" /></a>
+<a href="http://www.evozon.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/evozon.png') %]" alt="Evozon" title="A great Perl company" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
 <a href="http://www.exonetric.com" target="_new"><img height="40px"  src="[% make_uri_info('images/logos/exonetric.png') %]" alt="Exonetric" title="Reliable hosting solutions"/></a>
 
 
-&nbsp;&nbsp;&nbsp; -->
+&nbsp;&nbsp;&nbsp;
 
 <a href="http://geekuni.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/geekuni.png') %]" alt="geek University" title="Professional Perl Training" /></a>
 
@@ -118,7 +120,7 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="Rewarding Images of Nature" /></a>
+<a href="http://www.sciencephoto.com" target="_new"><img height="40px" src="[% make_uri_info('images/logos/spl.jpg') %]" alt="Science Photo Library" title="The leading provider of science images and footage" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
