@@ -95,7 +95,7 @@
 
 &nbsp;&nbsp;&nbsp;
 
-<a href="http://geekuni.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/geekuni.png') %]" alt="geek University" title="Professional Perl Training" /></a>
+<a href="https://geekuni.com/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/geekuni.png') %]" alt="geek University" title="Professional Perl Training" /></a>
 
 &nbsp;&nbsp;&nbsp;
 
