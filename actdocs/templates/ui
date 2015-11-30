@@ -152,6 +152,10 @@
 
 &nbsp;&nbsp;&nbsp;
 
+<a href="http://perlweekly.com/" target="_new"><img height="40px" src="[% make_uri_info('images/logos/perl_weekly.png') %]" alt="Perl Weekly" title="A weekly source of Perl News" /></a>
+
+&nbsp;&nbsp;&nbsp;
+
 <a href="http://www.westminster.ac.uk/" target="_new"><img height="40px" class="sponsorsimage" src="[% make_uri_info('images/logos/westminster.gif') %]" alt="" title="university of Westminster" /></a>
 
 </span>
